@@ -9,14 +9,41 @@ const client7 = new Discord.Client();
 const client8 = new Discord.Client();
 const client9 = new Discord.Client();
 const client10 = new Discord.Client();
-const client11 = new Discord.Client();
-const client12 = new Discord.Client();
-const client13 = new Discord.Client();
-const client14 = new Discord.Client();
-const client15 = new Discord.Client();
 
 client.on('ready', () => {
     console.log('This All Accounts Ready');
+        client.user.setStatus("dnd");
+
+});
+
+client2.on('ready', () => {
+        client2.user.setStatus("dnd");
+
+});
+
+client3.on('ready', () => {
+        client3.user.setStatus("dnd");
+
+});
+
+client4.on('ready', () => {
+        client4.user.setStatus("dnd");
+
+});
+
+client5.on('ready', () => {
+        client5.user.setStatus("dnd");
+
+});
+
+client6.on('ready', () => {
+        client6.user.setStatus("dnd");
+
+});
+
+client7.on('ready', () => {
+        client7.user.setStatus("idle");
+
 });
 
 
@@ -34,8 +61,3 @@ client7.login(process.env.rbbn7);
 client8.login(process.env.rbbn8);
 client9.login(process.env.rbbn9);
 client10.login(process.env.rbbn10);
-client11.login(process.env.rbbn11);
-client12.login(process.env.rbbn12);
-client13.login(process.env.rbbn13);
-client14.login(process.env.rbbn14);
-client15.login(process.env.rbbn15);
